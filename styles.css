@@ -1,0 +1,578 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Irish+Grover&family=Jost:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Cardo:wght@700&family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Irish+Grover&family=Jost:wght@100;400&display=swap');
+
+/* HEADER */
+
+.header-top{
+    background-color: #f2f2f0;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: #666459;
+    
+}
+
+.nav-tabs{
+    margin-left: 20px;
+}
+
+.nav-tabs::before{
+    background-image: url(./imagens/logo\ nome.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    content: "";
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+.container-fluid{
+width: 100%;
+height: 100px;
+
+}
+
+.row {
+  width: 100%;
+  height: 50px;  
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-search{
+    height: 40px;
+   
+     
+}
+
+.form-control{
+    text-align: center;
+    background-color: #fcfcfc;
+    border: 1px solid #ebeae6;
+    border-radius: 4px;
+    color: #666459;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding-left: 34px;
+    padding-right: 10px;
+    width: 428px;
+}
+
+
+.itens-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.img-header{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+.d-flex::before{
+    background-image: url(./imagens/busca.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+    top: 9px;
+    height: 30px;
+    width: 30px;
+    content: "";
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    height: 50px;
+    list-style: none;
+    font-size: .875rem;
+    font-weight: bolder;
+    color: #202020;
+    max-width: 100%;
+    position: relative;
+    border-top: 1px solid #efeee6;
+    margin: 0;
+}
+.item-menu:hover{
+    color: #62bba5;
+}
+.Designer{
+    color: white;
+    background-color: #62bba5;
+    margin: 2px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    line-height: 48px;
+    
+}
+.Natal{
+    color: red;
+}
+
+
+.navbar{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+    /* INICIO BANNERS */
+
+
+.banner{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-row {
+    flex-direction: row;
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+    display: flex;
+    margin-left: 10px;
+}
+
+.img-baixo{
+    margin-top: 10px;
+}
+
+.flex-body {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+   
+}
+
+.img-cima:hover {
+    box-shadow: 0 1px 7px 0 grey;
+    transition: color .1s;
+}
+.img-esquerda:hover {
+    box-shadow: 0 1px 7px 0 grey;
+    transition: color .1s;
+}
+.img-baixo:hover {
+    box-shadow: 0 1px 7px 0 grey;
+    transition: color .1s;
+}
+
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    color: #000;
+    display: block;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+}
+
+a {
+    font-size: 12px;
+    font-family: "Brandon Grotesque";
+    color: #000;
+    display: block;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: underline;
+
+}
+
+/* INICIO PRODUTOS */
+
+
+.container-produtos{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.lista-produtos{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.item-produto{
+    list-style: none;
+   
+    height: 330px;
+}
+
+.item-produto:hover {
+    box-shadow: 0 1px 12px  rgba(128, 128, 128, 0.514);
+    transition-duration:0.3s;
+}
+
+.imagem-produto{
+    left: 11%;
+    width: 90%;
+}
+
+.item-produto:hover::after{
+    content: url(./imagens/heart.png);
+    display: block;
+    position: relative;
+    bottom: 310px;
+    left: 220px;
+}
+
+.apartir{
+    font-size: 1em;
+    line-height: 18px;
+    color: #868474;
+    font-weight: bold;
+}
+
+.descricao{
+   font-size: 1em;
+   font-weight: unset;
+   color: #868474;
+}
+
+.marca{
+    color: #aead9e;
+    font-weight: unset;
+}
+
+
+/* INICIO PARCERIAS */
+
+
+.parcerias{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+
+.imagens-parcerias{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 330px;
+}
+
+.img-parcerias:hover{
+    box-shadow: 0 1px 12px  rgba(128, 128, 128, 0.514);
+    transition-duration:0.3s;
+}
+
+
+/* INICIO MISSAO  */
+
+
+.nossa-missao{
+    text-align: center;
+    margin: 55px 0 0;
+    font: 1.5em  'Cairo', sans-serif;
+    color: #868474;
+    
+}
+
+.missao-inspirar{
+    text-align: center;
+    margin: -7px 0 0;
+    padding-top: 15px;
+    font: 2.5em  'Cairo', sans-serif;
+    color: #62bba5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.missao-now{
+    display: flex;
+    justify-content: center;
+}
+
+.linha{
+    border-top: 1px solid #d1d0cc;
+    border-bottom: none;
+    position: relative;
+    top: -41px;
+}
+
+
+.missao-westwing{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 17px;
+    margin: 20px auto 33px;
+    margin: 20px 0 10px 10px;
+    font-size: 1.5em;
+    color: #666459;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bolder;
+    
+}
+
+em{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.legenda{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font: 2em 'Cairo', sans-serif;
+    color: #62bba5;
+    font-weight: bold;
+}
+
+
+.descricao-sobre{
+    margin: 0;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.4;
+    font-weight:bolder;
+    color: #868474;;
+}
+
+.paragrafo-sobre{
+    color: #aead9e;
+    line-height: 1.5;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.sobre-westwing{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-sobre{
+    display: block;
+    margin: 20px auto 40px;
+    max-width: 100%;
+    
+
+}
+
+.queridinhos, .calendario, .busca, .envio{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.westwing-now{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    display: inline-block;
+    background: #fff;
+    padding: 0 17px;
+    margin: 20px auto 33px;
+    font-size: 1.5em;
+    color: #666459;
+    font-family: Cardo,"Times New Roman",Times,serif;;
+}
+
+.texto{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #868474;
+}
+
+
+/* INICIO FOOTER */
+
+
+footer{
+    color: #868474;
+    background: #f7f7f3; 
+    width: 100%;
+    height: 420px;
+}
+
+
+.footer-site{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itens-links, .itens-serviço, .texto-pagamento, .horario, .tel, .fale-conosco, .sac-footer{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hearts::before{
+    content: url(./imagens/hearts.png);
+    position: relative;
+    top: 10px;
+}
+
+.entrega::before{
+    content: url(./imagens/entrega.png);
+    position: relative;
+    top: 10px;
+
+}
+
+.sete-dias::before{
+    content: url(./imagens/7dias.png);
+    position: relative;
+    top: 10px;
+}
+.p-footer, .footer-p{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    text-align:center;
+}
+.footer-siga{
+    margin-top: 10px;
+    display: flex;
+    justify-content:start;
+    text-align:start;
+}
+
+.links, .serviço-list{
+    list-style: none;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #868474;
+    background: #f7f7f3; 
+    width: 100%;
+    height: 137px;
+}
+
+.melhor-online::after{
+    content: url(./imagens/now.png);
+    position: relative;
+    top: 10px;
+}
+
+.footer-copyright{
+font-size: 11px;
+
+}
+.endereco{
+    font-size: 13px;
+}
+
+
+/* inicio media  */
+
+@media (max-width:800px){
+    .header-top{
+        display: none;
+    }
+}
+
+@media (max-width:1010px){
+    .container-produtos {
+        flex-direction: column;
+       
+    }
+}
+
+@media (max-width:1180px){
+    .d-flex::before{
+        display: none;
+    }
+
+}
+
+@media (max-width:908px){
+
+    .img-logo{
+        display: none;
+     
+    
+    }
+}
+
+@media (max-width:940px){
+    nav{
+        display: none;
+    }
+}
+
+@media (max-width:880px){
+    .itens-header{
+        display: none;
+    }
+}
+    
+@media (max-width:810px){
+    .sobre-westwing{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:880px){
+    .footer-site{
+        display: none;
+    }
+}
